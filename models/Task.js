@@ -6,6 +6,18 @@ const TaskSchema = new Schema({
     type: String,
     required: true
   },
+  fechaInicial: {
+  	type: Date,
+  	required: true
+  },
+  fechaFinal: {
+  	type: Date,
+  	required: true
+  },
+  responsableId: {
+  	type: ObjectId,
+  	required: true
+  },
   createdOn: {
     type: Date,
     default: Date.now
