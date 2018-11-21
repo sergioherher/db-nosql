@@ -14,8 +14,8 @@ const TaskSchema = new Schema({
   	type: Date,
   	required: true
   },
-  responsableId: {
-  	type: ObjectId,
+  responsableID: {
+  	type: Number,
   	required: true
   },
   createdOn: {
